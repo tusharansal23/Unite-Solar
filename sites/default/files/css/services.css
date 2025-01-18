@@ -1,0 +1,34 @@
+.tick-points {
+    list-style-type: none; /* Remove default bullets */
+    padding: 0;
+    margin: 50px 0;
+}
+
+.tick-points li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+.tick-points li::before {
+    content: "✔"; /* Add a tick icon */
+    color: green;
+    font-weight: bold;
+    margin-right: 10px;
+}
+.paragraph__row {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px; /* Adjust spacing between columns */
+  }
+  
+  .paragraph__row > div {
+    flex: 1; /* Ensures equal column width */
+  }
+  
+  .corporate-wrap__items img {
+    width: 100%; /* Ensures images fit within their columns */
+    height: auto; /* Maintains aspect ratio */
+  }
+  
