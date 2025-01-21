@@ -1,0 +1,6 @@
+@media screen and (max-width: 768px) { /* Adjust max-width as per your breakpoints */
+    .position-fixed {
+      position: fixed;
+    }
+  }
+  
