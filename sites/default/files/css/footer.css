@@ -3,4 +3,6 @@
       position: fixed;
     }
   }
-  
+.map-width {
+  width: -webkit-fill-available;
+}  

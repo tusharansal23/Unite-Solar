@@ -1,4 +1,5 @@
 .tick-points {
+  text-align: left;
     list-style-type: none; /* Remove default bullets */
     padding: 0;
     margin: 50px 0;
